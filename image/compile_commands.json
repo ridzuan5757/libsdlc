@@ -1,0 +1,35 @@
+[
+ {
+  "directory": "D:\\Silentmode\\c++\\libsdlc\\image",
+  "arguments": [
+   "g++",
+   "image.cpp",
+   "-IC:/mingw_dev_lib/include/SDL2",
+   "-LC:/mingw_dev_lib/lib",
+   "-w",
+   "-Wl,-subsystem,windows",
+   "-lmingw32",
+   "-lSDL2main",
+   "-lSDL2",
+   "-o",
+   "image"
+  ],
+  "file": "image.cpp"
+ },
+ {
+  "directory": "D:\\Silentmode\\c++\\libsdlc\\image",
+  "arguments": [
+   "g++",
+   "test.cpp",
+   "-IC:/mingw_dev_lib/include/SDL2",
+   "-LC:/mingw_dev_lib/lib",
+   "-w",
+   "-lmingw32",
+   "-lSDL2main",
+   "-lSDL2",
+   "-o",
+   "image"
+  ],
+  "file": "test.cpp"
+ }
+]

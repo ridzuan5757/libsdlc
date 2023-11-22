@@ -1,0 +1,19 @@
+[
+ {
+  "directory": "D:\\Silentmode\\c++\\libsdlc\\hello-world",
+  "arguments": [
+   "g++",
+   "hello_world.cpp",
+   "-IC:mingw_dev_libincludeSDL2",
+   "-LC:mingw_dev_liblib",
+   "-w",
+   "-Wl,-subsystem,windows",
+   "-lmingw32",
+   "-lSDL2main",
+   "-lSDL2",
+   "-o",
+   "01_hello_SDL"
+  ],
+  "file": "hello_world.cpp"
+ }
+]
